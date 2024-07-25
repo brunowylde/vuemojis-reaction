@@ -1,0 +1,22 @@
+{
+  "name": "vuemojis-reaction",
+  "version": "1.1.0",
+  "main": "dist/vuemojis-reaction.umd.js",
+  "module": "dist/vuemojis-reaction.esm.js",
+  "author": "Bruno Fiorucci",
+  "keywords": ["reactions", "emojis", "like", "icons"],
+  "exports": {
+    ".": "./dist/vuemojis-reaction.umd.js",
+    "./esm": "./dist/vuemojis-reaction.esm.js"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "@vitejs/plugin-vue": "^4.0.0"
+  }
+}
